@@ -2,74 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Sulemani Samuel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="portfolio.css" />
 </head>
 <body>
-   <nav class="navbar">
-  <div class="nav-brand">Sulemani</div>
-  <ul class="nav-links">
-    <li><a href="#intro">Home</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+  <nav class="navbar">
+    <div class="nav-brand">Sulemani</div>
+    <ul class="nav-links">
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="toggle-theme" aria-label="Toggle Dark Mode">🌙</button></li>
+    </ul>
+  </nav>
 
-<main>
- <section id="intro" class="intro">
-    <img src="pfp.jpg" alt="Profile Picture" class="profile-pic">
-    <div class="intro-text">
-      <header>
-        <h1>Sulemani Samuel</h1>
-      </header>
-      <p>Web Developer | Designer | Content Creator</p>
-      <p>Welcome to my portfolio website.</p>
-      <p>Here you can find information about my projects, skills, and experience.</p>
-    </div>
-  </section>
-  <section class="projects">
-    <h2>Projects</h2>
-    <div class="project-list">
-     <div class="project-card">
-     <h3> Project 1</h3>
-     <p>Anime Aura website.This site has the top 4 Anime character
-        with their details and videos.
-     </p> 
-     <a href="https://maniicodes.github.io/animeshowcase/" target="_blank">View Project</a>
-    </div>
-    <div class="project-card">
-      <h3>Project 2</h3>
-      <p>My Portfolio website. This site has my details and projects.
-      </p>
-  <a href="https://maniicodes.github.io/Portfolio/#intro" target="_blank">View Project</a>
-                                                                                                  
-    </div>
-
-     <div class="project-card">
-     <h3> Project 3</h3>
-     <p> I made a website for a restaurant. This site has the menu and details of the restaurant.
-     </p> 
-    </div>
-
-    <div class="project-card">
-     <h3> Project 4</h3>
-     <p> I made a website for a restaurant. This site has the menu and details of the restaurant.
-     </p> 
-    </div>
-
-    </div>
-  </section>
-  </main>
   <main>
- <section id="contact" class="contact">
-  <h2>Contact Me</h2>
-  <p>Email: sulemanisamuel33@gmail.com</p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/sulemani-samuel-63a0a2290/" target="_blank">Sulemani Samuel</a></p>
-</section>
-</main>
-<footer class="footer">
-  <p>&copy; 2025 Sulemani Samuel. All rights reserved.</p>
+    <section id="intro" class="intro">
+      <img src="pfp2.jpg" alt="Photo of Sulemani Samuel, Web Developer" class="profile-pic" />
+      <div class="intro-text">
+        <header>
+          <h1>Sulemani Samuel</h1>
+        </header>
+        <p>Web Developer | Designer | Content Creator</p>
+        <p>Welcome to my portfolio website. Here you can find information about my projects, skills, and experience.</p>
+        <p><a href="resume.pdf" target="_blank" class="resume-link">Download My Resume</a></p>
+        <p><a href="https://github.com/maniicodes" target="_blank" class="github-link">View My GitHub Profile</a></p>
+      </div>
+    </section>
 
+    <section id="projects" class="projects section">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Anime Aura Website</h3>
+          <p>A responsive site showcasing the top 4 Anime characters, featuring character details and embedded videos.</p>
+          <a href="https://maniicodes.github.io/animeshowcase/" target="_blank">View Project</a> | 
+          <a href="https://github.com/maniicodes/animeshowcase" target="_blank">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Personal Portfolio Website</h3>
+          <p>My own portfolio website with details about me, my skills, and projects. Built with HTML, CSS, and JavaScript.</p>
+          <a href="https://maniicodes.github.io/Portfolio/#intro" target="_blank">View Project</a> | 
+          <a href="https://github.com/maniicodes/portfolio" target="_blank">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Restaurant Website</h3>
+          <p>Developed a responsive restaurant website with a menu, contact form, and business details using HTML, CSS, and JavaScript.</p>
+          <a href="#" target="_blank" class="disabled-link" aria-disabled="true">View Project (Coming Soon)</a> | 
+          <a href="#" class="disabled-link" aria-disabled="true">View Code (Coming Soon)</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Restaurant Website (Alternate)</h3>
+          <p>A second restaurant website project focused on showcasing the menu and business info with an easy-to-navigate UI.</p>
+          <a href="#" target="_blank" class="disabled-link" aria-disabled="true">View Project (Coming Soon)</a> | 
+          <a href="#" class="disabled-link" aria-disabled="true">View Code (Coming Soon)</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+        <li>UI/UX Design (Figma)</li>
+        <li>React (Basic)</li>
+      </ul>
+    </section>
+
+    <section id="testimonials" class="testimonials section">
+      <h2>Testimonials</h2>
+      <blockquote>
+        <p>"Sulemani delivered an outstanding restaurant website quickly and professionally!"</p>
+        <footer>— Amina tuliya</footer>
+      </blockquote>
+      <blockquote>
+        <p>"Highly recommend Sulemani for web development projects; very communicative and skilled."</p>
+        <footer>— Former Employer</footer>
+      </blockquote>
+    </section>
+
+    <section id="contact" class="contact section">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:sulemanisamuel33@gmail.com">sulemanisamuel33@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/sulemani-samuel-63a0a2290/" target="_blank" rel="noopener noreferrer">Sulemani Samuel</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Sulemani Samuel. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-theme');
+    const body = document.body;
+
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      toggleBtn.textContent = body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    });
+  </script>
 </body>
 </html>
